@@ -1,5 +1,11 @@
-import '@/styles/globals.css'
+// import '@/styles/globals.css';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+export const MyApp = ({ Component, pageProps }) => {
+  return (
+    <div>
+      <Component {...pageProps} />
+    </div>
+  );
+};
+
+export default MyApp;
