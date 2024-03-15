@@ -1,5 +1,5 @@
 export * from './HeroSection';
-export * from './Model';
+export * from './Modal';
 export * from './NavBar';
 export * from './SearchToken';
 export * from './Toggle';
